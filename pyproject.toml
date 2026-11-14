@@ -1,0 +1,17 @@
+[project]
+name = "pseb"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "23pwbcs0999-WPFALL24", email = "23pwbcs0999@uetpeshawar.edu.pk" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+pseb = "pseb:main"
+
+[build-system]
+requires = ["uv_build>=0.13.8,<0.14.0"]
+build-backend = "uv_build"
